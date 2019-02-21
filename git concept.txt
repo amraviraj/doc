@@ -1,0 +1,53 @@
+Git installation and config:
+
+1.install git from git website.
+
+2. config:
+    git config --global user.name "user name"
+    git config --global user.email "email id"
+
+3. create a new floder like client name and inside create project name: project 1
+
+4. cd C:\git\project1 inside of floder
+
+   right click-> git bash here->enter "git init"
+
+
+5.first some doing git config:
+
+git clone <project url> it will download master branch data only.
+  particular branch means git clone -b "branch name" "project url"
+already any file in central repo it will download to local repo..
+
+          but if already config done means:
+
+"git pull origin master"(now it will download all the file from central to local repo)
+
+6.doing some changes in a file...
+
+     then use a command "git status" (it will show untracked file)
+     "git add"(to tracked file)
+     "git add -A"(multiple file tracked)
+     "git commit -m" "message" file name (commit single file with message)
+      "git commit -a -m" "message"(commit multiple file with message)
+
+7."git push origin master"
+   it will ask user name and passowrd
+   after that it will upload to central repo
+
+8.but if multiple guys working in same project:
+follow 5.2 point and follow 6th point.After that again use a pull command and push command.(why means first person did any changes after you pull the same doc,thatnot updated in your file so follow pull and push))
+
+2guys download same project
+ 1st guy doing some chnaged evg 5 o clk    project -> pull -work -> finish(commit)->push
+but still 2nd guy working on it,this 2nd guy will push means(6 o clk) it wont take 1st guy update, so always use follow formet 
+
+project -> pull -work -> finish(commit)-> pull ->push
+
+9.
+we need to check current branch details use a command "git branch"(it will show the current branch details)
+we need to check current origin details use a command "git remote -v"(it will show fetch and push project name)
+
+$ git remote -v
+origin  https://github.com/amraviraj/final-test.git (fetch)
+origin  https://github.com/amraviraj/final-test.git (push)
