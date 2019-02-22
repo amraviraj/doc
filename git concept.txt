@@ -39,6 +39,10 @@ already any file in central repo it will download to local repo..
 7."git push origin master"
    it will ask user name and passowrd
    after that it will upload to central repo
+   
+   next day 
+   
+   "git pull origin master"
 
 8.but if multiple guys working in same project:
 follow 5.2 point and follow 6th point.After that again use a pull command and push command.(why means first person did any changes after you pull the same doc,thatnot updated in your file so follow pull and push))
