@@ -6,3 +6,37 @@
 now automatiocly that hcnaged will reflict for 1st user.
 6.now 1st user use pull 
 now central change will reflict to 1st user local repoi
+
+
+
+clone git init remote add for 3 folder
+then clone -b 
+
+
+ssh-keygen
+ssh -T git@github.com
+
+you ae in master
+git merge dev
+it will merge dev file to master
+
+you are in master
+git rebasing dev
+ 
+
+git log
+what we did in our system like chabes added or delted it will show
+git log --oneline 
+shoet ah de;eted added
+
+git log --before="2/27/2019" (date)
+it will show particular date log files
+
+
+
+
+
+git branch -d branchname
+
+relaese 
+we need to slect branch details
